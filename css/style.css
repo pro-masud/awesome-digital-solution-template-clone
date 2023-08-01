@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'GeoSlab703 Md BT';
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+input:focus,textarea:focus,button:focus{
+    outline: none;
+}
+
+
+/* preloader section styling */
+
+#preloader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bs-light);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 999999;
+}
+
+
+.preloader-wrap{
+    text-align: center;
+}
+
+.loading-bar {
+    width: 120px;
+    height: 3px;
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+    background: var(--bs-white);
+}
+
+.loading-bar:before{
+    content: "";
+    width: 35px;
+    height: 3px;
+    background: var(--bs-primary);
+    position: absolute;
+    left: -34px;
+    -webkit-animation: bluebar 1.5s infinite ease;
+    animation: bluebar 1.5s infinite ease;
+}
+
+@-webkit-keyframes bluebar {
+    50% {
+      left: 96px;
+    }
+  }
+  
+  @keyframes bluebar {
+    50% {
+      left: 96px;
+    }
+  }
