@@ -20,6 +20,19 @@
 }
 
 @media (max-width: 600px){
+
+    
+    /* about section about list flex-direction: column */
+    .about-lists{
+        flex-direction: column;
+    }
+
+     /* about section about list width 100% and margin-bottom: 10px; */
+
+    .about-lists li {
+        width:100%;
+        margin-bottom: 10px;
+      }
     
 }
 
