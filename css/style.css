@@ -110,7 +110,7 @@ input:focus,textarea:focus,button:focus{
 
 
 
-  /* header section styling start */
+  /* header section nav menu styling start */
 
   .img-fluid{
     max-width: 100%;
@@ -124,9 +124,31 @@ input:focus,textarea:focus,button:focus{
   }
 
   .sticky-header {
+    position: fixed;
+    top:0px;
+    width: 100%;
     padding: 20px 0;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    z-index: 9999;
+  }
+
+  .affix{
+    top: 0;
+    left: 0;
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    -webkit-animation: 300ms ease-in-out fadeInDown;
+    animation: 300ms ease-in-out fadeInDown;
+    background: var(--bs-dark);
+    padding: 10px 0;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
   }
 
   .action-btns.me-lg-0{
@@ -164,4 +186,22 @@ input:focus,textarea:focus,button:focus{
     font-size: 20px;
     vertical-align: middle;
     margin-top: -2px;
+  }
+
+
+  /* hero-it-ads section styling start */
+
+  .hero-nine-bg{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .ptb-120{
+    padding: 120px 0;
+  }
+
+  .hero-img{
+    
   }
