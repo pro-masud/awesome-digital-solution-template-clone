@@ -277,11 +277,11 @@ input:focus,textarea:focus,button:focus{
     display: flex;
   }
 
-.list-two-col{
+.about-right .list-two-col{
     max-width: 100%;
 }
 
-.list-two-col li{
+.about-right .list-two-col li{
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
@@ -290,7 +290,43 @@ input:focus,textarea:focus,button:focus{
     margin: 6px 0;
 }
 
-.list-two-col li i{
+.about-right .list-two-col li i{
     background-color: #a1bdff;
     border-radius: 20px;
 }
+.about-right .link-with-icon i{
+  transition: .3s;
+  margin-left: 3px;
+}
+
+.about-right .link-with-icon:hover i{
+  margin-left: 6px;
+}
+
+
+
+/*  ADS App Two Features styling */
+
+.section-icon .section-title{
+  margin-bottom: 60px;
+}
+
+.section-icon .section-title h2{
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.service-icon img{
+  width: 64px;
+  height: 64px;
+}
+
+.single-service{
+  transition: .4s;
+}
+
+.single-service:hover{
+  -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
