@@ -1,6 +1,10 @@
 /* google font name is Poppins  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,700;1,800&display=swap');
-/* basic styling  */
+
+/***************************************
+ basic styling 
+ 
+ ***************************************/
 *{
     margin: 0px;
     padding: 0px;
@@ -72,13 +76,19 @@ input:focus,textarea:focus,button:focus{
 .ptb-120{
     padding: 120px 0;
 }
+.ptb-20{
+  padding-bottom: 20px;
+}
 
 .mb-32 {
     margin-bottom: 32px;
 }
 
 
-/* preloader section styling */
+/***************************************
+ preloader section styling 
+
+***************************************/
 
 #preloader{
     position: fixed;
@@ -139,7 +149,10 @@ input:focus,textarea:focus,button:focus{
 
 
 
-  /* header section nav menu styling start */
+  /*************************************** 
+  header section nav menu styling start 
+
+  ***************************************/
 
   .img-fluid{
     max-width: 100%;
@@ -227,7 +240,10 @@ input:focus,textarea:focus,button:focus{
   }
 
 
-  /* ADS about section styling start */
+  /***************************************
+   ADS about section styling start
+
+   ***************************************/
 
   .rounded-custom{
     border-radius: 16px;
@@ -305,7 +321,10 @@ input:focus,textarea:focus,button:focus{
 
 
 
-/*  ADS App Two Features styling */
+/***************************************
+  ADS App Two Features styling 
+
+***************************************/
 
 .section-icon .section-title{
   margin-bottom: 60px;
@@ -332,7 +351,10 @@ input:focus,textarea:focus,button:focus{
 
 
 
-/* ADS integration section start*/
+/***************************************
+ ADS integration section start
+
+***************************************/
 
 .integration-list-wrap{
   display: -webkit-box;
@@ -417,7 +439,23 @@ input:focus,textarea:focus,button:focus{
 }
 
 
-/* testimonaial section start */
+/*************************************
+ testimonaial section start 
+
+**************************************/
+
+.section-testimonial .section-title h5{
+  font-size: 20px;
+  font-weight: 600;
+  list-style: 25px;
+}
+
+.section-testimonial .section-title h2{
+  font-size: 40px;
+  font-weight: 800;
+  list-style: 30px;
+}
+
 .testimonials{
   margin-top: 60px;
 }
@@ -495,4 +533,38 @@ input:focus,textarea:focus,button:focus{
 .testimonials .owl-buttons .owl-prev:hover, .testimonials .owl-buttons .owl-next:hover{
   background-color: #0079ff;
   color: #fff;
+}
+
+
+
+/*************************************
+  Latest post Section start
+
+**************************************/
+
+.section-latest-post .section-title{
+  margin-bottom: 40px;
+}
+
+.section-latest-post .section-title h2{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+
+.brand-logo-grid{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 25px;
+}
+
+.brand-logo-grid li{
+  width: 100%;
+  border-radius: 20px 0px 30px 0px;
+  -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 15px 30px 15px 30px;
+  text-align: center;
 }
