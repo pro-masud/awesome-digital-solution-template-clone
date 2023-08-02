@@ -538,15 +538,15 @@ input:focus,textarea:focus,button:focus{
 
 
 /*************************************
-  Latest post Section start
+  Brand Section start
 
 **************************************/
 
-.section-latest-post .section-title{
+.section-brand-post .section-title{
   margin-bottom: 40px;
 }
 
-.section-latest-post .section-title h2{
+.section-brand-post .section-title h2{
   font-weight: 700;
   font-size: 40px;
   line-height: 48px;
@@ -567,4 +567,60 @@ input:focus,textarea:focus,button:focus{
   background-color: #fff;
   padding: 15px 30px 15px 30px;
   text-align: center;
+}
+
+
+/* Latest Post Section start */
+
+.section-latest-post .section-title{
+  margin-bottom: 60px;
+}
+
+.section-latest-post .section-title h2{
+  font-size: 40px;
+  font-weight: 700px;
+  line-height: 40px;
+}
+
+.single-article{
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: var(--bs-white);
+  background-clip: border-box;
+  border: 1px solid #f1f1f1;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+
+/* latest post section start */
+
+{
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: var(--bs-white);
+  background-clip: border-box;
+  border: 1px solid #f1f1f1;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
