@@ -9,7 +9,10 @@
         $("#preloader").delay(100).fadeOut("fade");
     });
 
-    // 
+
+
+
+    // header nav affix class add and remove 
 
     $(window).on("scroll", function () {
         var scroll = $(window).scrollTop();
@@ -19,7 +22,14 @@
         } else {
           $("nav.sticky-header").addClass("affix");
         }
-      });
+    });
+
+
+    //integration bootstrap tooltip 
+
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    });
 
 
 

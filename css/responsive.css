@@ -13,29 +13,42 @@
     .me-5 a{
         margin-right: 0;
     }
+
+
+    /* ADS integration section */
+    .integration-list-wrap {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+     /* ADS integration a */
+     .integration-list-wrap a {
+        position: inherit;
+        width: 45px;
+        height: 45px;
+    }
 }
 
 @media (max-width: 768px){
 
-
     /* section-title h2 font size */
-
     .section-icon .section-title h2{
         font-size: 32px;
     }
+    
     
 }
 
 @media (max-width: 600px){
 
-    
     /* about section about list flex-direction: column */
     .about-lists{
         flex-direction: column;
     }
 
-     /* about section about list width 100% and margin-bottom: 10px; */
-
+    /* about section about list width 100% and margin-bottom: 10px; */
     .about-lists li {
         width:100%;
         margin-bottom: 10px;
@@ -43,7 +56,6 @@
     
 
     /* about item lists */
-
     .about-right .list-two-col li{
         flex: 0 0 100%;
         max-width: 100%;
