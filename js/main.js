@@ -63,5 +63,9 @@
     });
 
 
+    // aos animation 
+    AOS.init();
+
+
 
 })(jQuery)

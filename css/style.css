@@ -84,6 +84,17 @@ input:focus,textarea:focus,button:focus{
     margin-bottom: 32px;
 }
 
+.limit-2-line-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.text-meuted{
+  color: #6c757d ;
+}
+
 
 /***************************************
  preloader section styling 
@@ -576,6 +587,7 @@ input:focus,textarea:focus,button:focus{
   margin-bottom: 60px;
 }
 
+
 .section-latest-post .section-title h2{
   font-size: 40px;
   font-weight: 700px;
@@ -603,24 +615,87 @@ input:focus,textarea:focus,button:focus{
   border-radius: 20px;
 }
 
+.single-article:hover{
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-shadow: 0 11px 18px -8px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 11px 18px -8px rgba(0, 0, 0, 0.16);
+}
 
-/* latest post section start */
-
-{
+.img-article{
   position: relative;
   overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: var(--bs-white);
-  background-clip: border-box;
-  border: 1px solid #f1f1f1;
+}
+
+.img-article > img{
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 100%;
+  height: 14rem;
+  -o-object-fit: cover;
+  object-fit: cover;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
+}
+
+.single-article:hover .img-article > img{
+  -webkit-transform: rotate(3deg) scale(1.1);
+  transform: rotate(3deg) scale(1.1);
+}
+
+
+.single-article .img-article::before{
+  content: "";
+  display: block;
+  background: rgba(0, 0, 0, 0.25);
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.single-article:hover .img-article::before {
+  background: transparent;
+}
+
+
+.bg-primary-soft{
+  background-color: #CEDDFF;
+}
+
+
+
+
+.article-content h2{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.article-content h2:hover{
+  color:#0079ff;
+}
+
+.article-content p{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.avatar-container{
+  display: flex;
+  justify-content: start;
+}
+.avatar-img{
+  margin-right: 20px;
+}
+.avatar-img img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
