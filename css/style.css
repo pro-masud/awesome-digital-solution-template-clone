@@ -699,3 +699,72 @@ input:focus,textarea:focus,button:focus{
   height: 40px;
   border-radius: 50%;
 }
+
+
+/* footer section styling start */
+.bg-gradient {
+  background: -webkit-gradient(linear, left top, right top, from(#021048), to(#1e38a3)) !important;
+  background: linear-gradient(90deg, #021048, #1e38a3) !important;
+}
+
+
+.met_color{
+  color: #d6d5e1;
+}
+
+.footer-single-col a{
+  color: #fff;
+}
+
+.footer-single-col h3{
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 36px;
+  color: #fff;
+}
+
+.footer-single-col .footer-nav-list li a{
+  font-size: 16px;
+  margin: 10px 0;
+  display: block;
+  opacity: 0.5;
+  font-weight: 500;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color:#9a9fbf;
+}
+
+.footer-single-col .footer-nav-list li a:hover{
+  color: #fff;
+}
+
+
+.footer-bottom {
+  position: relative;
+  display: block;
+  border-top: 1px solid rgba(248, 249, 250, 0.05);
+}
+
+.copyright-text p{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer-social-list li a{
+  display: block;
+  width: 36px;
+  height: 36px;
+  line-height: 32px;
+  text-align: center;
+  border: 2px solid rgba(255, 255, 255, 0.12);
+  color: #d6d5e1;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-social-list li a:hover{
+  background: #175cff;
+  color: #fff;
+}
