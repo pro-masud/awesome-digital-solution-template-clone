@@ -835,3 +835,60 @@ input:focus,textarea:focus,button:focus{
   -webkit-transform: rotateY(-35deg) rotateX(15deg);
   transform: rotateY(-35deg) rotateX(15deg);
 }
+
+
+
+
+/* work process section styling */
+
+.work-process .section-title h2{
+  font-weight: 700;
+  color: #fff;
+  line-height: 40px;
+  font-size: 40px;
+}
+
+.work-process .section-title p{
+  color: #d6d5e1;
+  line-height: 25px;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.process-icon{
+  width: 80px;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin: 0 auto 35px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.process-icon i{
+  font-size: 32px;
+}
+
+.process-card-two:hover .process-icon{
+  background-color: #fff;
+  color: #0B163F;
+}
+
+.process-card-two h3{
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.process-card-two p{
+  color: #d6d5e1;
+}
