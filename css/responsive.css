@@ -52,6 +52,13 @@
     }
 
 
+    /* service section grid  */
+
+    .service-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
 
 }
 
@@ -76,6 +83,11 @@
 
     .page-header p{
         font-size: 18px
+    }
+
+
+    .service-grid {
+        grid-template-columns: 1fr;
     }
     
 }

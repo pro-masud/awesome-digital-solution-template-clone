@@ -892,3 +892,52 @@ input:focus,textarea:focus,button:focus{
 .process-card-two p{
   color: #d6d5e1;
 }
+
+
+
+
+
+/* service section styling now */
+
+.service-section .section-title{
+  margin-bottom: 80px;
+}
+
+.service-grid{
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.service-card {
+  padding: 30px;
+}
+
+.service-icon{
+  width: 65px;
+  height: 65px;
+  background-color: #0079ff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.service-icon i{
+  font-size: 26px;
+  color: #fff;
+}
+
+.service-grid .service-content h2{
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}
