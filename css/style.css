@@ -952,3 +952,27 @@ input:focus,textarea:focus,button:focus{
   font-weight: 600;
   color: #000;
 }
+
+
+
+
+/* promo section styling start */
+
+.promo-section .section-title {
+  margin-bottom: 50px;
+}
+
+.promo-card-info h2{
+  color: #fff;
+  font-size: 800;
+}
+
+.promo-card-info p{
+  color: #b3b5c6;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;
+  -webkit-text-size-adjust: 100%;
+  margin: 20px auto 40px;
+}
