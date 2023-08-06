@@ -83,6 +83,13 @@ input:focus,textarea:focus,button:focus{
 .ptb-120{
     padding: 120px 0;
 }
+
+.pt-60{
+  padding-top: 60px;
+}
+.pb-120{
+  padding-bottom: 120px;
+}
 .ptb-20{
   padding-bottom: 20px;
 }
@@ -93,6 +100,10 @@ input:focus,textarea:focus,button:focus{
 
 .ptb-60{
   padding: 60px 0;
+}
+
+.section-title{
+  margin-bottom: 30px;
 }
 
 .section-title  h2{
@@ -1074,4 +1085,26 @@ input:focus,textarea:focus,button:focus{
   margin-top: auto;
   -ms-flex-item-align: end;
   align-self: flex-end;
+}
+
+
+
+/* our stroy section start */
+
+.stroy-raid{
+  width: 100%;
+  height: 700px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+.story-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1.5rem;
+  text-align: center;
 }
