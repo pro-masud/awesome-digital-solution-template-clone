@@ -60,6 +60,13 @@ input:focus,textarea:focus,button:focus{
     font-family: 'Poppins', sans-serif;
     border: 2px solid transparent;
 }
+.z--1{
+  z-index: -1;
+}
+
+.z-2{
+  z-index: 2;
+}
 
 .btn-primary{
     color: var(--bs-white);
@@ -82,6 +89,29 @@ input:focus,textarea:focus,button:focus{
 
 .mb-32 {
     margin-bottom: 32px;
+}
+
+.ptb-60{
+  padding: 60px 0;
+}
+
+.section-title  h2{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.feature-icon{
+  width: 65px;
+  height: 65px;
+
+  text-align: center;
+}
+
+.feature-icon i{
+  font-size: 32px;
+  color: #fff;
+  line-height: 65px;
 }
 
 .limit-2-line-text {
@@ -975,4 +1005,23 @@ input:focus,textarea:focus,button:focus{
   font-weight: 400;
   -webkit-text-size-adjust: 100%;
   margin: 20px auto 40px;
+}
+
+
+
+/* feature section start */
+
+.animate-element {
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  right: 0;
+  transform: translate3d(0px, 0px, 0px);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+.animate-element li{
+  height: 100%;
+  width: 100%;
 }
