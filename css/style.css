@@ -354,6 +354,10 @@ input:focus,textarea:focus,button:focus{
   font-size: 40px;
 }
 
+.service-icon{
+  margin-bottom: 28px;
+}
+
 .service-icon img{
   width: 64px;
   height: 64px;
@@ -920,7 +924,14 @@ input:focus,textarea:focus,button:focus{
   padding: 30px;
 }
 
-.service-icon{
+.service-card:hover{
+  border-color: #175cff !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: transparent;
+}
+
+.service-grid .service-icon{
   width: 65px;
   height: 65px;
   background-color: #0079ff;
@@ -931,7 +942,7 @@ input:focus,textarea:focus,button:focus{
   margin-bottom: 40px;
 }
 
-.service-icon i{
+.service-grid .service-icon i{
   font-size: 26px;
   color: #fff;
 }
