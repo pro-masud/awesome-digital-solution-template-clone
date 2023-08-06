@@ -128,6 +128,9 @@
 
     }
 
+    .section-title  h2{
+        font-size: 32px;
+    }
 
 
 }
@@ -164,6 +167,10 @@
     .about-info h1{
         font-size: 32px;
         line-height: 44px;
+    }
+
+    .section-title  h2{
+        font-size: 26px;
     }
     
 }

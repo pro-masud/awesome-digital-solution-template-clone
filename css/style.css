@@ -1108,3 +1108,17 @@ input:focus,textarea:focus,button:focus{
   padding: 1.5rem;
   text-align: center;
 }
+
+
+/* feature section two styling  */
+
+
+
+.icon-box i {
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  font-size: 22px;
+  color: #fff;
+}
