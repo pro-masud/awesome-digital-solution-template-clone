@@ -6,7 +6,15 @@
         display: block;
     }
 
+    .about-info h1{
+        font-size: 45px;
+    }
 
+    .about-content-left{
+        width: 450px;
+    }
+
+}
    
 
 @media (max-width: 991px){
@@ -14,6 +22,10 @@
 
     .me-5 a{
         margin-right: 0;
+    }
+
+    .ptb-120{
+        padding: 60px 0;
     }
 
 
@@ -51,11 +63,69 @@
         font-size: 20px
     }
 
+    .about-info h1{
+        font-size: 40px;
+    }
+
 
     /* service section grid  */
 
     .service-grid {
         grid-template-columns: 1fr 1fr;
+    }
+
+
+    /*  */
+
+    .section-heading-wrap {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .about-content-left {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 40px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+        margin-right: 0;
+    }
+
+    .about-content-left .about-img-first{
+        max-width: 100%;
+    }
+
+    .about-content-right {
+        max-width: 100%;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .about-content-right img:nth-child(1) {
+        width: 45%;
+        margin: 0 !important;
+
+    }
+
+    .about-content-right img:nth-child(2) {
+        width: 50%;
+        margin: 0 !important;
+
     }
 
 
@@ -89,6 +159,12 @@
     .service-grid {
         grid-template-columns: 1fr;
     }
+
+
+    .about-info h1{
+        font-size: 32px;
+        line-height: 44px;
+    }
     
 }
 
@@ -120,6 +196,8 @@
     .page-header p{
         font-size: 16px
     }
+
+  
 }
 
 @media (max-width: 480px){

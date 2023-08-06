@@ -1025,3 +1025,53 @@ input:focus,textarea:focus,button:focus{
   height: 100%;
   width: 100%;
 }
+
+
+
+/* about us page */
+
+.about-header-section{
+  margin-top: 100px;
+}
+
+.section-heading-wrap{
+  z-index: 5;
+}
+
+.about-content-left{
+  max-width: 602px;
+  margin-right: 30px;
+}
+
+.about-info h1{
+  line-height: 60px;
+  color: #fff;
+  font-size: 50px;
+}
+
+.about-info p{
+  color: #c4c4d3;
+}
+
+.about-content-right{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 47%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.about-content-left .about-img-first{
+  max-width: 76%;
+  width: 100%;
+}
+
+.about-content-right .about-img-last{
+  max-width: 126%;
+  margin-top: auto;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
