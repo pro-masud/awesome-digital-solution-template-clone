@@ -1126,3 +1126,17 @@ input:focus,textarea:focus,button:focus{
   font-size: 22px;
   color: #fff;
 }
+
+
+
+
+/* feature section start */
+
+.section-title strong{
+  font-weight: 500;
+}
+
+.list-number ol li{
+  list-style: list-number ;
+  margin-bottom: 40px;
+}
