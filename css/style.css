@@ -1140,3 +1140,27 @@ input:focus,textarea:focus,button:focus{
   list-style: list-number ;
   margin-bottom: 40px;
 }
+
+.section-title ul.list li{
+  list-style-type: circle;
+}
+
+
+
+/* blog section styling */
+
+.feature-article{
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+.feature-article a > img{
+  height: 20rem !important;
+}
+
+.feature-article .article-content {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
