@@ -112,6 +112,10 @@ input:focus,textarea:focus,button:focus{
   line-height: 40px;
 }
 
+.section-title p{
+  font-size: 15px;
+}
+
 .feature-icon{
   width: 65px;
   height: 65px;
