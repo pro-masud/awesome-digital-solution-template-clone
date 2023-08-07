@@ -1207,3 +1207,10 @@ input:focus,textarea:focus,button:focus{
 .single-open-job button{
   border: 2px solid #fff;
 }
+
+
+/* single promo section start */
+
+.single-feature{
+  background-color: #fff;
+}
