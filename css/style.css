@@ -1214,3 +1214,28 @@ input:focus,textarea:focus,button:focus{
 .single-feature{
   background-color: #fff;
 }
+
+
+/* contact-promo section start */
+
+.contact-us-promo {
+  -webkit-box-shadow: 0 5px 20px 0 rgba(210, 210, 245, 0.5);
+  box-shadow: 0 5px 20px 0 rgba(210, 210, 245, 0.5);
+}
+
+.contact-us-promo i{
+  margin-bottom: 30px;
+}
+
+.contact-promo-info h5{
+  font-weight: 600;
+  font-size: 22px;
+  color: #000;
+  line-height: 30px;
+}
+
+.contact-promo-info p strong{
+  font-weight: 600;
+}
+
+
